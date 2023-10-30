@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b1eff1;
+    padding-top: 60px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+.page-wrapper {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to bottom, #2ecc71, #5c7c66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro h1{
+    background: linear-gradient(to bottom, #4ede81, #ffffff);
+    font-size: 50px;
+}
+
+#css-zen-garden {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#css-zen-garden h1,
+#css-zen-garden h2 {
+    margin: 0;
+}
+
+.body-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro,
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements,
+.zen-resources,
+.footer {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro h1,
+.preamble h3,
+.explanation h3,
+.participation h3,
+.benefits h3,
+.requirements h3 {
+    color: #2ecc71;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+}
+
+.intro p,
+.preamble p,
+.explanation p,
+.participation p,
+.benefits p,
+.requirements p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.sidebar {
+    background-color: #e8f0eb;
+    color: #0a5e23;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:94%;
+    
+}
+.sidebar ul{
+    list-style-type: none;
+}
+
+.sidebar a {
+    color: #101060;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.sidebar a:hover {
+    transform: translateX(10px);
+}
+
+.zen-resources {
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #e0e6e4;
+    list-style-type: none;
+}
+
+.zen-resources ul {
+    list-style-type: none;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    margin-left:-31px;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    text-align: center;   
+
+}
